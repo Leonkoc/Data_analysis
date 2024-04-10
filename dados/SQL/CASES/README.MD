@@ -1,7 +1,8 @@
-Esse código é uma consulta SQL que seleciona todos os campos da tabela "pedidos" e adiciona uma nova coluna chamada "canal_venda", que contém uma expressão condicional para determinar se o pedido foi feito online ou em uma loja física.
+# Proposta
+A pasta "cases" tem como objetivo apresentar algumas queries com as quais tenho trabalhado recentemente em projetos freelancers. Observe que os dados foram alterados para proteger a privacidade dos clientes. Os casos apresentados são mais complexos em comparação com a minha coleção anterior de queries, onde o foco estava em comentar cláusulas SQL que eu estava aprendendo no início dos meus estudos.
 
-O primeiro passo da expressão condicional é verificar se o valor da coluna "order_status" é igual a -100. Se for, a condição é avaliada como verdadeira e a nova coluna "canal_venda" receberá o valor "Online". Caso contrário, a condição será avaliada como falsa e a nova coluna "canal_venda" receberá o valor "Loja física".
+<h1 align="left">Analista</h1>
 
-O código usa a cláusula "LIMIT" para limitar o número de linhas retornadas pela consulta para 5000.
+[<img src="https://avatars.githubusercontent.com/u/64026100?v=4" width=115> <br><sub>Leon Ortega</sub>](https://github.com/Leonkoc)
 
-Em resumo, esse código adiciona uma nova coluna à tabela de pedidos que classifica cada pedido como online ou em loja física com base no valor da coluna "order_status".
+[Linkedin](https://www.linkedin.com/in/leon-ortega-cerqueira-frontend/)
